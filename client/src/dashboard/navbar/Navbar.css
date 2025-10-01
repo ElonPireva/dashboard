@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    width: 100%;
+    border: 1px solid rgba(131, 135, 139, 0.395);
+    padding: 1rem;
+}
+
+.Navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navbar-nav-profile-logo {
+    cursor: pointer;
+}
+
+.Navbar-nav-profile-logo span:first-child {
+    background-color: rgb(113, 178, 113);
+    border-radius: 100%;
+    padding: .5rem;
+    color: #fff;
+    margin-right: .3rem;
+}
+
+.Navbar-nav-profile-dropdown {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid rgba(24,28,33,.06);
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+}
+
+.Navbar-nav-profile-dropdown-myprofile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Navbar-nav-profile-dropdown-myprofile-logo svg {
+    font-size: 1.875rem;
+    color: gray;
+    margin-right: .2rem;
+}
+
+.Navbar-nav-signout {
+    margin-left: 1rem;
+}
+
+.Navbar-nav-signout span {
+    cursor: pointer;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', Helvetica, Arial, serif !important; */
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../assets/fonts/webfontkit-20230216-042433/cocogoose_pro-trial-webfont.woff2') format('woff2');
+}
+
+body {
+    font-family: 'MyWebFont', sans-serif !important;
+}
